@@ -1,0 +1,321 @@
+# liblouis: English, U.S. grade 1 (EBAE) table
+#
+# -----------
+#-name: U.S. English grade 1 (EBAE)
+#-display-name: U.S. English (EBAE) uncontracted braille
+#
+#+locale:en-US
+#+type:literary
+#+contraction:no
+#+grade:1
+#+system:ebae
+#
+# TODO: Please correct the metadata above. It is not meant to be
+# accurate nor complete. It hasn't been verified by the table
+# author yet. It is merely an attempt by the liblouis maintainers
+# to get some sensible initial values in place.
+#
+# TODO: Please add a reference to official documentation about
+# the implemented braille code. Preferably submit the documents
+# to https://github.com/liblouis/braille-specs.
+# -----------
+#
+#  Based on the Linux screenreader BRLTTY, copyright (C) 1999-2006 by
+#  The BRLTTY Team
+#
+#  Copyright (C) 2004-2006 ViewPlus Technologies, Inc. www.viewplus.com
+#  Copyright (C) 2004-2006 JJB Software, Inc. www.jjb-software.com
+#
+#  This file is part of liblouis.
+#
+#  liblouis is free software: you can redistribute it and/or modify it
+#  under the terms of the GNU Lesser General Public License as
+#  published by the Free Software Foundation, either version 2.1 of the
+#  License, or (at your option) any later version.
+#
+#  liblouis is distributed in the hope that it will be useful, but
+#  WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+#  Lesser General Public License for more details.
+#
+#  You should have received a copy of the GNU Lesser General Public
+#  License along with liblouis. If not, see
+#  <http://www.gnu.org/licenses/>.
+
+include chardefs.cti All character definition opcodes
+numsign 3456  number sign, just a dots operand
+
+noback sign \x002c  2
+noback sign \x009d  0  		# nimfasele
+noback sign \x200c  0
+noback sign \x200b  0
+noback sign \x200f  0
+noback sign \x061F	236     # arabic question mark          
+noback sign \x064B	23     	# EB ⠆ ًً[ARABIC FATHATAN]
+noback sign \x064C	26 		# EC ⠢ ٌٌ[ARABIC DAMMATAN]
+noback sign \x064D	35     	# ED ⠔ ٍٍ[ARABIC KASRATAN]
+noback sign \x064E	2 		# EE ⠂ ََ[ARABIC FATHA]
+noback sign \x064F	136    	# EF ⠥ ُُ[ARABIC DAMMA]
+noback sign \x0650	15     	# F0 ⠑ ِِ[ARABIC KASRA]
+noback sign \x0651	6  		# F1 ⠠ ّ [ARABIC SHADDA]
+noback sign \x0652	25		# F2 ⠒ ْ [ARABIC SUKUN]
+noback sign \x06cc  24      # FY ⠊ ی [FARSI LETTER YEH]
+noback sign \xFBFC  24      #      ی [ARABIC LETTER YEH]
+noback sign \xFEF3  24      #      ی [ARABIC LETTER YEH]
+noback sign \xFEF2  24      #      ی [ARABIC LETTER YEH]
+noback sign \xFEF0  24      #      ی [ARABIC LETTER YEH]
+noback sign \xFEF4  24      #      ی [ARABIC LETTER YEH]
+noback sign \x06CC  24      #      ی [ARABIC LETTER YEH]
+noback sign \xFBE6  24      #      ی [ARABIC LETTER YEH]
+noback sign \xFBE7  24      #      ی [ARABIC LETTER YEH]
+noback sign \xFBFE  24      #      ی [ARABIC LETTER YEH]
+noback sign \xFBFF  24      #      ی [ARABIC LETTER YEH]
+noback sign \x064A  24      #      ی [ARABIC LETTER YEH]
+noback sign \x06CC  24      #      ی [ARABIC LETTER YEH]
+noback sign \xFBFD  24      #      ی [ARABIC LETTER YEH]
+noback sign \xFBFC  24      #      ی [ARABIC LETTER YEH]
+noback sign \x06CD  24      #      ی [ARABIC LETTER YEH]
+noback sign \x0643 	13      # E3 ⠅ ك [ARABIC LETTER KAF]
+noback sign \xFEDB 	13      #      ک [ARABIC LETTER KAF]
+noback sign \x06A9 	13      #      ک [ARABIC LETTER KAF]
+noback sign \x06A9 	13      #      ک [ARABIC LETTER KAF]
+noback sign \xFB91 	13      #      ک [ARABIC LETTER KAF]
+noback sign \xFB90 	13      #      ک [ARABIC LETTER KAF]
+noback sign \xFB8F 	13      #      ک [ARABIC LETTER KAF]
+noback sign \xFB8E 	13      #      ک [ARABIC LETTER KAF]
+noback sign \xFEDD 	13      #      ک [ARABIC LETTER KAF]
+noback sign \xFED9 	13      #      ک [ARABIC LETTER KAF]
+noback sign \x06AA 	13      #      ک [ARABIC LETTER KAF]
+noback sign \x067e 	1234    # FZ ⠏ پ [FARSI LETTER PEH]
+noback sign \xFB56 	1234    #    ⠏ پ [ARABIC LETTER PEH]
+noback sign \x0686 	14      # FC ⠉ چ [FARSI LETTER CHEH]
+noback sign \xFB7A 	14      #      چ [ARABIC LETTER CHEH]
+noback sign \xFB7D 	14      #      چ [ARABIC LETTER CHEH]
+noback sign \xFB7B 	14      #      چ [ARABIC LETTER CHEH]
+noback sign \xFB7C 	14      #      چ [ARABIC LETTER CHEH]
+noback sign \xFE9E 	14      #      چ [ARABIC LETTER CHEH]
+noback sign \x002E		 256    	# 2E ⠨ . [FULL STOP]*****(Momayez 2568)
+noback sign \x060c  2
+noback sign \x067e		 1234     	# FZ ⠏ پ [FARSI LETTER PEH]
+noback sign \x0686		 14     	# FC ⠉ چ [FARSI LETTER CHEH]
+noback sign \x0698		 346   		# FZ ⠬ ژ [FARSI LETTER ZHEH]
+noback sign \x06af		 1245    	# FG ⠛ گ [FARSI LETTER GAF]
+noback sign \x061B		 23  		# BB ⠰ ؛ [ARABIC SEMICOLON]
+noback sign \x0621		 3     		# C1 ⠄ ء [ARABIC LETTER HAMZA]
+noback sign \x0622		 345   		# C2 ⠜ آ [ARABIC LETTER ALEF WITH MADDA ABOVE]
+noback sign \x0623		 34    		# C3 ⠌ أ [ARABIC LETTER ALEF WITH HAMZA ABOVE]
+noback sign \x0624		 1256  		# C4 ⠳ ؤ [ARABIC LETTER WAW WITH HAMZA ABOVE]
+noback sign \x0625		 34  		# C5 ⠨ إ [ARABIC LETTER ALEF WITH HAMZA BELOW]
+noback sign \x0626		 13456   	# C6 ⠽ ئ [ARABIC LETTER YEH WITH HAMZA ABOVE]
+noback sign \x0627		 1        	# C7 ⠁ ا [ARABIC LETTER ALEF]
+noback sign \x0628		 12       	# C8 ⠃ ب [ARABIC LETTER BEH]
+noback sign \x0629		 16   		# C9 ⠡ ة [ARABIC LETTER TEH MARBUTA]
+noback sign \x062A		 2345    	# CA ⠞ ت [ARABIC LETTER TEH]
+noback sign \x062B		 1456   	# CB ⠹ ث [ARABIC LETTER THEH]
+noback sign \x062C		 245    	# CC ⠚ ج [ARABIC LETTER JEEM]
+noback sign \x062D		 156   		# CD ⠱ ح [ARABIC LETTER HAH]
+noback sign \x062E		 1346   	# CE ⠭ خ [ARABIC LETTER KHAH]
+noback sign \x062F		 145    	# CF ⠙ د [ARABIC LETTER DAL]
+noback sign \x0630		 2346   	# D0 ⠮ ذ [ARABIC LETTER THAL]
+noback sign \x0631		 1235    	# D1 ⠗ ر [ARABIC LETTER REH]
+noback sign \x0632		 1356   	# D2 ⠵ ز [ARABIC LETTER ZAIN]
+noback sign \x0633		 234     	# D3 ⠎ س [ARABIC LETTER SEEN]
+noback sign \x0634		 146   		# D4 ⠩ ش [ARABIC LETTER SHEEN]
+noback sign \x0635		 12346   	# D5 ⠯ ص [ARABIC LETTER SAD]
+noback sign \x0636		 1246   	# D6 ⠫ ض [ARABIC LETTER DAD]
+noback sign \x0637		 23456   	# D7 ⠾ ط [ARABIC LETTER TAH]
+noback sign \x0638		 123456   	# D8 ⠿ ظ [ARABIC LETTER ZAH]
+noback sign \x0639		 12356   	# D9 ⠷ ع [ARABIC LETTER AIN]
+noback sign \x063A		 126   		# DA ⠣ غ [ARABIC LETTER GHAIN]
+noback sign \x0641		 124     	# E1 ⠋ ف [ARABIC LETTER FEH]
+noback sign \x0642		 12345    	# E2 ⠟ ق [ARABIC LETTER QAF]
+noback sign \x0643		 13      	# E3 ⠅ ك [ARABIC LETTER KAF]
+noback sign \x0644		 123      	# E4 ⠇ ل [ARABIC LETTER LAM]
+noback sign \x0645		 134     	# E5 ⠍ م [ARABIC LETTER MEEM]
+noback sign \x0646		 1345    	# E6 ⠝ ن [ARABIC LETTER NOON]
+noback sign \x0647		 125    	# E7 ⠓ ه [ARABIC LETTER HEH]
+noback sign \x0648		 2456   	# E8 ⠺ و [ARABIC LETTER WAW]
+noback sign \x06cc		 24     	# FY ⠊ ی [FARSI LETTER YEH]
+noback digit \x06F0		 245     	#      ۰ [FARSI NUMBER SEFR]
+noback digit \x06F1	  	 1         	#      ۱ [FARSI NUMBER YEK]
+noback digit \x06F2		 12        	#      ۲ [FARSI NUMBER DO]
+noback digit \x06F3		 14      	#      ۳ [FARSI NUMBER SE]
+noback digit \x06F4		 145     	#      ۴ [FARSI NUMBER CHAHAR]
+noback digit \x06F5		 15     	#      ۵ [FARSI NUMBER PANJ] 
+noback digit \x06F6		 124      	#      ۶ [FARSI NUMBER SHESH]
+noback digit \x06F7		 1245     	#      ۷ [FARSI NUMBER HAFT]
+noback digit \x06F8		 125     	#      ۸ [FARSI NUMBER HASHT]
+noback digit \x06F9		 24      	#      ۹ [FARSI NUMBER NOH]
+
+noback sign \x2022 246
+noback sign \x25e6 35
+noback sign \x2212 36
+noback sign \x00b6 456
+noback sign \x00ab 236
+noback sign \x00bb 356
+noback sign \x0028 2356
+noback sign \x0029 2356
+noback sign \x003e 246
+noback sign \x003c 135
+
+sign \x003a 25
+sign \x0023 3456
+sign \x007d 135
+sign \x003d 2356
+
+# Braille indicators
+
+letsign 56
+noletsignafter .
+noletsignafter '
+#capsletter 6
+#capsword 6-6
+#endcapsword 6-3
+capsletter 6
+begcapsword 6-6
+endcapsword 6-3
+
+emphclass italic
+emphclass underline
+emphclass bold
+emphclass transnote
+
+begemphword italic 46-3
+endemphword italic 46-36
+emphletter italic 46-25
+
+begemphphrase bold 456-46-46
+endemphphrase bold before 456-46
+lenemphphrase bold 4
+begemphword bold 456-46
+
+begemphword underline 456-36
+endemphword underline 3-6
+lenemphphrase underline 3
+begemphphrase underline 456-2356
+endemphphrase underline after 6-3
+
+begemph transnote 6-3
+endemph transnote 6-3
+
+begcomp 456-346
+endcomp 456-156
+
+# literary forms of the decimal digits
+include loweredDigits6Dots.uti
+
+# display/passthrough for unicode braille
+include braille-patterns.cti
+
+# Letters are defined in chardefs.cti
+
+# punctuation
+
+always = 2356
+
+prepunc " 236
+postpunc " 356
+word " 4-236
+prepunc ` 6-236
+prepunc ' 6-236
+postpunc ' 356-3
+word ' 4-3
+word 'em = 
+word 'tis =
+word 'twas =
+begnum # 456-1456 print number sign before number
+midnum , 2
+postpunc , 2
+word , 4-2
+decpoint . 256
+midnum - 36
+hyphen - 36
+always \s--\s 36-36
+always \s-\s 36-36
+midnum \x00ad 36
+postpunc . 256
+word . 256
+postpunc ; 23
+word ; 4-23
+midnum : 25
+postpunc : 25
+always : 4-25
+postpunc ! 235
+always ! 4-235
+midnum / 34
+always / 34
+
+always + 235
+postpunc ? 236
+endword s' 234-3
+always ? 236
+endnum st 34
+endnum nd 1345-145
+endnum rd 1235-145
+noback endnum 's 3-234
+endnum th 1456
+endnum 's 3-234
+always % 4-25-1234
+midnum ^ 45
+always ^ 456-126
+always ~ 4-156
+always & 12346
+midnum * 236
+always * 236
+prepunc [ 12356
+word [ 12356
+always [ 12356
+postpunc ] 23456
+word ] 23456
+always ] 23456
+prepunc { 246
+word { 246
+always { 246
+
+always @ 4
+always \\ 4-1256
+always | 456
+always \s-\s 36-36
+
+always ... 46
+
+repeated .... 0
+repeated ____ 456
+repeated ---- 36
+always .\s.\s." 3-3-3-356
+always .\s.\s. 3-3-3 . . .
+
+nofor begnum $ 256-3456
+always $ 4-234
+
+# special character sequences
+compbrl :// URLs
+compbrl ()
+compbrl www.
+compbrl ::
+compbrl .com
+compbrl .edu
+compbrl .gov
+compbrl .ini
+compbrl .mil
+compbrl .net
+compbrl .org
+compbrl .doc
+compbrl .xml
+compbrl .xsl
+compbrl .htm
+compbrl .html
+compbrl .tex
+compbrl .txt
+compbrl .gif
+compbrl .jpg
+compbrl .png
+compbrl .wav
+compbrl .tar
+compbrl .zip
+
+noback context "\e"$a *
+noback always \\_ 56 letter sign before Roman page numbers
+noback pass2 @56-56 @56
+noback pass2 @3-56 @3
+
